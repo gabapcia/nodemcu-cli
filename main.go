@@ -15,6 +15,7 @@ func main() {
 		EnableBashCompletion: true,
 		Commands: []*cli.Command{
 			command.Upload(),
+			command.Firmware(),
 		},
 	}
 

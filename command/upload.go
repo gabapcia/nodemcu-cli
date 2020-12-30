@@ -84,10 +84,8 @@ func Upload() *cli.Command {
 		Action: func(c *cli.Context) error {
 			_, err := exec.LookPath("nodemcu-uploader")
 			if err != nil {
-				msg := strings.Join([]string{
-					"nodemcu-uploader not found in $PATH.",
-					"Please, use \"pip install nodemcu-uploader\" to install it.",
-				}, " ")
+				msg := "nodemcu-uploader not found in $PATH. " +
+					"Please, use \"pip install nodemcu-uploader\" to install it."
 				return fmt.Errorf(msg)
 			}
 
