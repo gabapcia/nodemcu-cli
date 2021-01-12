@@ -1,6 +1,6 @@
-# nodemcu-cli
-CLI to assist in the development of embedded systems using nodemcu firmware.
-Whith this CLI, you can easily upload lua code to your NodeMCU board and update it's firmware.
+# NodeMCU-CLI
+## A CLI to assist in the development of embedded systems using nodemcu firmware.
+With this CLI, you can easily upload lua code to your NodeMCU board and update it's firmware.
 
 
 ## Instalation
